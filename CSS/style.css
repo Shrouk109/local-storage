@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+.parent {
+  width: 600px;
+  margin: 40px auto;
+  background-color: #eee;
+  padding: 20px;
+}
+.parent input {
+  border: 0;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 20px;
+}
+.parent input:focus {
+  outline: 0;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons span {
+  background-color: #009688;
+  text-align: center;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.results {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 15px;
+  border: 2px dashed #eee;
+  text-align: center;
+}
+.results span span{
+  font-weight: bold;
+  color: #009688;
+}
+.cnt-local{
+  margin-top: 15px;
+}
+.cnt-local span{
+  width: 30px;
+  background-color: #009688;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
